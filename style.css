@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: left;   
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+  
+  form {
+    font-size: 20px;
+  }
+
+  form h2 {
+    padding: 1% 2.5%;
+  }
+
+  input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext {
+  /* Checkbox text */
+  display: inline;
+}
+
+
+  label {
+    margin: 1%;
+    font-size: 20px;
+  }
+
+input[type=checkbox]:checked + label.strikethrough {
+  text-decoration: line-through; 
+}
